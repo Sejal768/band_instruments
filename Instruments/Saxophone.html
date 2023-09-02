@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flute</title>
+</head>
+<style>
+    .Outer-Box {
+        height: 100px;
+        width: 100%;
+        background-color: rgb(0, 0, 0, .74);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .NavLinks {
+        /* background-color: black; */
+        width: 600px;
+    }
+
+    .List {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    .Link {
+        margin: 20px;
+        Padding: 10px;
+        background-color: #77bba4;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+
+    body {
+        background:linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.562)), url("../repetition-g155460592_1920.jpg");
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+    }
+    .box{
+        width:100%;
+        height:500px;
+        background:#9dcdbcaf;
+        display:flex;
+        justify-content: space-around;
+    }
+    .Font-Change{
+        font-size: 66px;
+margin-bottom: 0px;
+    }
+    .btn1{
+        padding: 10px;
+border-radius: 10px;
+background: #c1dfd5;
+cursor: pointer;
+    }
+.List a{
+color:rgb(0, 0, 0);
+text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color:white;
+}
+.left-img{
+    width:30%;
+    height:400px;
+}
+.desc{
+    width:65%;
+    height: 400px;
+    /* background:blue; */
+}
+.flute-img{
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    display:flex;
+    justify-content:center;
+}
+</style>
+<body>
+    <nav class="Outer-Box">
+        <div class="Left-Box">
+            <img class="nav-img" src="../music-note (1).png" alt="">
+        </div>
+        <div class="NavLinks">
+            <ul class="List">
+                <a href="../Index.html"> <li class="Link">Home</li></a>
+               
+         <a href="../Instruments.html"><li class="Link">Instruments</li></a>   
+         <a href="../Contact Us.html"> <li class="Link">Contact Us</li></a>
+         <a href="../About.html"> <li class="Link">About Us</li></a>
+               
+
+            </ul>
+    </nav>
+    <h1>Saxophone</h1>
+    <div class="box">
+        <div class="left-img">
+            <img class=flute-img src="../images/Saxophone-Family-1024x733-removebg-preview.png" alt="">
+        </div>
+        <div class="desc">
+            <h1>About This Instrument</h1>
+            </p>The saxophone, or sax, is a woodwind instrument. It uses a single reed attached to a mouthpiece and is usually made of brass. It has more than eight instruments in its instrument family, each having a different range and pitch. Because of the variety of instruments included, the saxophone is included in many bands like jazz, concert, and military bands. Due to the variety of instruments included in this family, it is tuned in many different keys. The sound of each type of instrument is unique and sets it apart from other instruments in this family. Its range is about two and a half octaves, but it needs other types of fingerings to extend the range.
+        </p>
+
+        </div>
+    </div>
+    <h1>Demo Audio</h1>
+    <div class="wrap">
+    <audio controls>
+        <source type="audio/mp3" src="../SaxS.mp3">
+    </audio>
+</div>
+</body>
+</html>

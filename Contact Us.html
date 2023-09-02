@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Outer-Box {
+            height: 100px;
+            width: 100%;
+            background-color: rgb(0, 0, 0, .74);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .NavLinks {
+            /* background-color: black; */
+            width: 600px;
+        }
+
+        .List {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        .Link {
+            margin: 20px;
+            Padding: 10px;
+            background-color: #77bba4;
+            border-radius: 14px;
+            cursor: pointer;
+        }
+
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.562)), url("./repetition-g155460592_1920.jpg");
+            background-size: cover;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box {
+            width: 100%;
+            height: 80vh;
+            color: white;
+
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Font-Change {
+            font-size: 66px;
+            margin-bottom: 0px;
+        }
+
+        .btn1 {
+            padding: 10px;
+            border-radius: 10px;
+            background: #c1dfd5;
+            cursor: pointer;
+        }
+
+        .List a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        .outerbox {
+            width: 100%;
+            height: 80vh;
+        }
+
+        .innerbox {
+            width: 400px;
+            height: 500px;
+            background: rgb(173 228 223 / 75%)
+        }
+
+        .outerbox {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .innerbox {
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            border-radius: 10px;
+        }
+
+        input {
+            margin: 10px 0px;
+            padding: 10px;
+        }
+
+        textarea {
+            margin: 10px 0px;
+        }
+
+        .submit-btn {
+            background: linear-gradient(to right, rgba(255, 255, 255, 0.686), rgb(180 220 214 / 81%), rgb(0 255 188));
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .iframe {
+            margin: 25px;
+        }
+        @media only screen and (max-width:400px){
+
+.Outer-Box {
+        height: 180px;
+        width: 100%;
+        background-color: rgb(0, 0, 0, .74);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .NavLinks {
+        /* background-color: black; */
+        width: auto;
+    }
+    .Link {
+        margin: 3px;
+        Padding: 8px;
+        background-color: #77bba4;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+.Left-Box{
+display:flex;
+justify-content: center;
+}
+.outerbox {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction:column;
+        }
+        .innerbox {
+            width: 357px;
+            height: 500px;
+            background: rgb(173 228 223 / 75%);
+        }
+        
+iframe{
+    width: 400px !important;
+}
+}
+    </style>
+</head>
+
+<body>
+    <nav class="Outer-Box">
+        <div class="Left-Box">
+            <img src="./music-note (1).png" alt="">
+        </div>
+        <div class="NavLinks">
+            <ul class="List">
+                <a href="./Index.html">
+                    <li class="Link">Home</li>
+                </a>
+
+                <a href="./Instruments.html">
+                    <li class="Link">Instruments</li>
+                </a>
+
+                <a href="./Contact Us.html">
+                    <li class="Link">Contact Us</li>
+                </a>
+               
+                <a href="./About.html">
+                    <li class="Link">About Us <Us class="">
+                    </li>
+                </a> 
+                
+               
+                
+               
+
+
+            </ul>
+    </nav>
+
+    <div class="outerbox">
+        <div class="innerbox">
+            <h1>Contact Us</h1>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="number" placeholder="Enter Your Phone Number">
+            <input type="email" placeholder="Enter Your Email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND MESSAGE" class="submit-btn">
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.177606081225!2d-97.54569772429437!3d30.51601659607374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644db41d19676f3%3A0x91234a2876832334!2sFarley%20Middle%20School!5e0!3m2!1sen!2sus!4v1689208409090!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+</body>
+
+</html>
+
+
+<!-- Add the following input tags in contact form  -->
+<!-- 1. Name 
+2. Email 
+3. textareaa for a message. -->
